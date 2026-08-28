@@ -4,7 +4,7 @@ Microengineering BSc at EPFL <br>
 Started 2024 - Graduating 2027 <br>
 
 ## Portfolio 💼
-[StitchMeter — EPFL Project](https://danielLelescu.github.io/stitchmeter/) <br>
+[StitchMeter - EPFL Project](https://danielLelescu.github.io/stitchmeter/) <br>
 [Temperature-IR Fan - EPFL Project](https://github.com/danielLelescu/Temperature-IR_Fan) <br>
 
 ## Contact 📫
