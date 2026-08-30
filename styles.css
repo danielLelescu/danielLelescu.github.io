@@ -244,7 +244,7 @@ html:not(.js) .theme-toggle { display: none; }
 }
 
 .skills-group-title {
-  font-size: 0.95rem; font-weight: 600; margin-bottom: 0.75rem; color: var(--text-secondary, #555);
+  font-size: 0.95rem; font-weight: 600; margin-bottom: 1.25rem; color: var(--text-secondary, #555);
 }
 
 .skills-grid {
