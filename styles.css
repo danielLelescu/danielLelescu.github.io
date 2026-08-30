@@ -227,7 +227,7 @@ html:not(.js) .theme-toggle { display: none; }
   background: linear-gradient(135deg, var(--accent), var(--accent-hover));
   box-shadow: var(--shadow-lg);
 }
-.about-body p + p { margin-top: var(--space-4); color: var(--text-muted); }
+.about-body p:nth-of-type(n+3) { margin-top: var(--space-4); color: var(--text-muted); }
 .about-list { margin-top: var(--space-6); display: grid; gap: var(--space-2); }
 .about-list li { display: flex; gap: var(--space-4); font-size: var(--text-sm); }
 .about-list span { color: var(--text-faint); min-width: 8rem; text-transform: uppercase; letter-spacing: 0.03em; font-size: var(--text-xs); }
