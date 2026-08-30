@@ -96,7 +96,10 @@
           <h2 class="section-title">About me</h2>
           <p>I'm an engineering student who loves finding and bringing solutions to life at the intersection of hardware, firmware, and software.
           I began my studies at EPFL in 2024, and graduate in 2027. I enjoy collaborating with teams, but also work well alone.</p>
-          <p>My strengths can be summarized by my strong work ethic, detail-oriented approach, and tenacity when faced with a difficult problem.</p>
+          <p>My strengths can be summarized by my strong work ethic, detail-oriented approach, and tenacity when faced with a difficult problem.
+            I'm not a stranger to AI; I take the time to verify everything I'm given.</p>
+          <p>"A decade ago, [the most valuable skill] was arguably code. Today, I believe it's AI intuition i.e. knowing when to use AI, and when not to."</p>
+          <p><span>- Rowan Cheung, Founder of "The Rundown" newsletter</span></p>
           <ul class="about-list">
             <li><span>Location</span> Lausanne, Switzerland</li>
             <li><span>Availability</span> Seeking work </li>
@@ -111,7 +114,7 @@
       <div class="container">
         <div class="section-head">
           <h2 class="section-title">Technical Skills</h2>
-          <p class="section-lead">A list of what I've worked with</p>
+          <p class="section-lead">A list of what I've worked with:</p>
         </div>
 
         <div class="skills-group">
@@ -126,19 +129,54 @@
         </div>
 
         <div class="skills-group">
-          <h3 class="skills-group-title">Hardware</h3>
+          <h3 class="skills-group-title">Embedded Systems</h3>
+          <ul class="skills-grid">
+            <li class="skill-tag">ATMega128</li>
+            <li class="skill-tag">ESP32</li>
+            <li class="skill-tag">Timers/Interrupts</li>
+            <li class="skill-tag">Pulse-Width Modulation</li>
+            <li class="skill-tag">Registers/Counters</li>
+          </ul>
+        </div>
+        
+        <div class="skills-group">
+          <h3 class="skills-group-title">Digital Hardware</h3>
           <ul class="skills-grid">
             <li class="skill-tag">FPGA Boards</li>
             <li class="skill-tag">Logisim-Evolution</li>
             <li class="skill-tag">State Machines</li>
+            <li class="skill-tag">Combinational/Sequential Logic</li>
           </ul>
         </div>
 
+        <div class="skills-group">
+          <h3 class="skills-group-title">Sensor/Peripheral Interfacing</h3>
+          <ul class="skills-grid">
+            <li class="skill-tag">UART</li>
+            <li class="skill-tag">RC5 infrared</li>
+            <li class="skill-tag">1-Wire</li>
+            <li class="skill-tag">Bluetooth</li>
+            <li class="skill-tag">Audio stream</li>
+            <li class="skill-tag">Video stream</li>
+          </ul>
+        </div>
+        
         <div class="skills-group">
           <h3 class="skills-group-title">CAD</h3>
           <ul class="skills-grid">
             <li class="skill-tag">CATIA</li>
             <li class="skill-tag">Onshape</li>
+            <li class="skill-tag">Technical drawing</li>            
+          </ul>
+        </div>
+
+        <div class="skills-group">
+          <h3 class="skills-group-title">Methods</h3>
+          <ul class="skills-grid">
+            <li class="skill-tag">Modular design</li>
+            <li class="skill-tag">Python-based optimization</li>
+            <li class="skill-tag">Hardware/software Debugging</li>
+            <li class="skill-tag">System Documentation</li>
             <li class="skill-tag">Git &amp; GitHub</li>
           </ul>
         </div>
@@ -151,29 +189,7 @@
       <div class="container">
         <div class="section-head">
           <h2 class="section-title">Projects</h2>
-          <p class="section-lead">A selection of things I've built. Use the filters to explore by category.</p>
-        </div>
-
-        <!--
-          CSS-only filtering (no JavaScript required):
-          The radios are visually hidden but stay focusable. A `:has()` rule
-          in styles.css hides cards whose data-cat doesn't match the selected filter.
-        -->
-        <div class="filter-bar" role="group" aria-label="Filter projects by category">
-          <input type="radio" name="filter" id="filter-all" class="filter-input" checked />
-          <label for="filter-all" class="filter-chip">All</label>
-
-          <input type="radio" name="filter" id="filter-web" class="filter-input" />
-          <label for="filter-web" class="filter-chip">Web Apps</label>
-
-          <input type="radio" name="filter" id="filter-mobile" class="filter-input" />
-          <label for="filter-mobile" class="filter-chip">Mobile</label>
-
-          <input type="radio" name="filter" id="filter-design" class="filter-input" />
-          <label for="filter-design" class="filter-chip">Design</label>
-
-          <input type="radio" name="filter" id="filter-oss" class="filter-input" />
-          <label for="filter-oss" class="filter-chip">Open Source</label>
+          <p class="section-lead">A selection of things I've built, mostly collaboratively:</p>
         </div>
 
         <div class="projects-grid">
