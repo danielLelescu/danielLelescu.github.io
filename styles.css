@@ -235,7 +235,22 @@ html:not(.js) .theme-toggle { display: none; }
 /* ==========================================================================
    SKILLS
    ========================================================================== */
-.skills-grid { display: flex; flex-wrap: wrap; gap: var(--space-3); }
+.skills-group {
+  margin-bottom: 2rem;
+}
+
+.skills-group:last-child {
+  margin-bottom: 0;
+}
+
+.skills-group-title {
+  font-size: 0.95rem; font-weight: 600; margin-bottom: 0.75rem; color: var(--text-secondary, #555);
+}
+
+.skills-grid {
+  display: flex; flex-wrap: wrap; gap: 0.6rem; list-style: none; padding: 0; margin: 0;
+}
+
 .skill-tag {
   padding: var(--space-2) var(--space-4); border-radius: var(--radius-full);
   background: var(--surface-2); border: 1px solid var(--border);
