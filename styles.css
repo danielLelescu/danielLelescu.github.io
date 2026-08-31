@@ -292,6 +292,7 @@ html:not(.js) .theme-toggle { display: none; }
 .card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); border-color: var(--accent); }
 
 .card-cover { height: 9rem; display: grid; place-items: center; position: relative; overflow: hidden; }
+.card-cover { height: 9rem; width: 100%; object-fit: cover; display: block; }
 .cover-label {
   font-family: var(--font-display); font-weight: 700; font-size: 2.25rem; letter-spacing: -0.03em;
   color: rgba(255, 255, 255, 0.95); text-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
