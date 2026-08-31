@@ -161,7 +161,11 @@ button { cursor: pointer; background: none; border: none; color: inherit; font: 
 }
 .nav-inner { display: flex; align-items: center; justify-content: space-between; height: var(--nav-h); gap: var(--space-4); }
 .brand { display: inline-flex; align-items: center; gap: var(--space-3); font-family: var(--font-display); font-weight: 700; letter-spacing: -0.02em; }
-.brand-mark { color: var(--accent); flex-shrink: 0; }
+.brand-mark {
+  height: 1.6rem;
+  width: auto;
+  flex-shrink: 0;
+}
 .brand-text { font-size: var(--text-lg); }
 
 .nav-links { display: flex; align-items: center; gap: var(--space-2); }
