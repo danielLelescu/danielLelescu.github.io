@@ -118,17 +118,23 @@
 }
 
 .metric {
-  padding: var(--space-4);
+  padding: var(--space-3) var(--space-4);
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
   background: color-mix(in oklab, var(--surface) 88%, transparent);
+  min-width: 0;
 }
 
 .metric-value {
   display: block;
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: var(--text-lg);
+  font-size: var(--text-sm);
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+  /* Long single words (e.g. "Frictionless") must never spill out of the tile */
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .metric-label {
@@ -474,7 +480,6 @@ a.figure-zoom:hover {
 /* ---------- Explanatory prose under a figure ---------- */
 .prose-block {
   margin-top: clamp(var(--space-8), 4vw, var(--space-12));
-  max-width: 70ch;
 }
 
 .prose-block h3 {
