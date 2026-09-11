@@ -501,3 +501,56 @@ a.figure-zoom:hover {
   .compare-arrow { transform: rotate(90deg); }
   .compare-arrow span { display: none; }
 }
+
+/* ==========================================================================
+   CONTACT BAND + FIGURE GRIDS
+   ========================================================================== */
+
+.contact-inner { text-align: center; }
+.contact-inner .section-lead { margin-inline: auto; }
+
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-3);
+  margin-top: var(--space-8);
+}
+
+/* Two figures side by side, each at readable size */
+.figure-duo {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(var(--space-4), 3vw, var(--space-8));
+  align-items: start;
+}
+
+/* A stack of full-width figures */
+.figure-stack {
+  display: grid;
+  gap: clamp(var(--space-6), 4vw, var(--space-10));
+}
+
+/* Small supporting figures, centred and capped so they never blow up */
+.figure-duo--small { margin-top: clamp(var(--space-6), 4vw, var(--space-10)); }
+.figure-duo--small .figure-frame { max-width: 26rem; margin-inline: auto; }
+
+.figure-title {
+  font-family: var(--font-display);
+  font-size: var(--text-base);
+  letter-spacing: -0.02em;
+  margin-bottom: var(--space-3);
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.figure-note {
+  margin-top: var(--space-3);
+  color: var(--text-muted);
+  font-size: var(--text-sm);
+}
+
+@media (max-width: 760px) {
+  .figure-duo { grid-template-columns: 1fr; }
+}
