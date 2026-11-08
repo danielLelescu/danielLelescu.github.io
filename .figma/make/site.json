@@ -1,0 +1,10 @@
+{
+  "description": "A project setup toolkit that prepares imported applications for deployment and preview, helping developers verify readiness before publishing.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
